@@ -88,20 +88,16 @@ contract Attack {
    ![](./img/S09-2.png)
 
 3.  此时，如果游戏结束调用 `refund()` 退款的话是可以正常退款的。 
-
-   ![](./img/S09-3.png)
+![](./img/S09-3.png)
 
 4.  重新部署 `DoSGame` 合约，并部署 `Attack` 合约。 
-
-   ![](./img/S09-4.png)
+![](./img/S09-4.png)
 
 5. 调用 `Attack` 合约的 `attack()`，进行存款并参与游戏。 
-
-   ![](./img/S09-5.png)
+![](./img/S09-5.png)
 
 6.  调用 `DoSGame` 合约`refund()`，进行退款，发现不能正常运行，攻击成功。 
-
-   ![](./img/S09-6.png)
+![](./img/S09-6.png)
 
 ## 预防方法
 
