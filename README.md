@@ -2,6 +2,10 @@
 总结一些常见的合约漏洞
 
 ### S01. 重入攻击: [code](./S01_ReentrancyAttack/ReentrancyAttack.sol) | [文章](./S01_ReentrancyAttack/readme.md)
+​	what: 攻击者通过合约漏洞（例如fallback函数）循环调用合约
+
+​	how: a.加入重入锁 b.检查-影响-交互
+
 ### S02. 选择器碰撞: [code](./S02_SelectorClash/SelectorClash.sol) | [文章](./S02_SelectorClash/readme.md)
 ### S03. 签名重放: [code](./S03_SignatureReplay/SignatureReplay.sol) | [文章](./S03_SignatureReplay/readme.md)
 ### S04. 拒绝服务: [code](./S04_Dos/Dos.sol) | [文章](./S04_Dos/readme.md)
